@@ -1,16 +1,16 @@
 [build-system]
-build-backend = "poetry.masonry.api"
-requires = ["poetry>=0.12"]
+build-backend = "kim.masonry.api"
+requires = ["kim>=0.12"]
 
 [tool]
-[tool.poetry]
+[tool.kim]
 authors = ["abdurrohimbontr <abdurrohimbontro.com>"]
 description = ""
 name = "definitesurprisedirc"
 version = "0.1.0"
-[tool.poetry.dependencies]
+[tool.kim.dependencies]
 Pyrogram = "^0.16.0"
 Telethon = "^1.11"
 python = "^3.8"
 TgCrypto = "^1.2.2"
-[tool.poetry.dev-dependencies]
+[tool.kim.dev-dependencies]
