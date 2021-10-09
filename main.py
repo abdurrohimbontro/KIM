@@ -25,8 +25,8 @@ if s_l == "p":
   )
   app.start()
   session_str = app.export_session_string()
-  s_m = app.send_message("Dikirim oleh 𝓚𝓲𝓶 𝓸𝓯𝓯𝓲𝓬𝓲𝓪𝓵", session_str)
-  s_m.reply_text("☕ santuy aja dulu🚬 \n ⚠️perhatian : jangan berikan StringSession kepada orang lain\nJika anda ingin masuk grup random : @crazy_people345 jangan lupa gabung ya...sampai ketemu di grup", quote=True)
+  s_m = app.send_message("me", session_str)
+  s_m.reply_text("☕ santuy aja dulu🚬 \n ⚠️perhatian : jangan berikan StringSession kepada orang lain\nJika anda ingin masuk grup random : @crazy_people345 jangan lupa gabung ya...sampai ketemu di grup\nby 𝓚𝓲𝓶", quote=True)
   app.stop()
   print("\nSesion string anda telah siap silahkan cek pesan tersimpan di telegram anda by 𝓚𝓲𝓶 𝓸𝓯𝓯𝓲𝓬𝓲𝓪𝓵")
 
@@ -44,8 +44,8 @@ elif s_l == "t":
   )
   client.start()
   session_str = client.session.save()
-  s_m = client.send_message("di kirim oleh 𝓚𝓲𝓶 𝓸𝓯𝓯𝓲𝓬𝓲𝓪𝓵", session_str)
-  s_m.reply("☕ Santuy aja dulu 🚬\n⚠️ perhatian :\njangan berikan Sesiom string ini kepada orang lain\nJika anda ingin Masuk grup random : @crazy_people345 jangan lupa gabung ya...sampai ketemu di grup")
+  s_m = client.send_message("me", session_str)
+  s_m.reply("☕ Santuy aja dulu 🚬\n⚠️ perhatian :\njangan berikan Sesiom string ini kepada orang lain\nJika anda ingin Masuk grup random : @crazy_people345 jangan lupa gabung ya...sampai ketemu di grup\nby 𝓚𝓲𝓶")
   client.stop()
   print("\nStringSession anda siap di gunakan Silahkan cek pesan tersimpan anda by 𝓚𝓲𝓶 𝓸𝓯𝓯𝓲𝓬𝓲𝓪𝓵")
 
